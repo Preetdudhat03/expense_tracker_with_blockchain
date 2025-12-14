@@ -142,11 +142,16 @@ Network Name: Ganache<br>
 RPC URL: http://127.0.0.1:7545<br>
 Chain ID: 5777<br>
 Currency Symbol: ETH<br>
+<img width="1918" height="950" alt="image" src="https://github.com/user-attachments/assets/2dbe08ef-8b08-4c14-af0b-a0d9baf9945b" />
+
 
 3. Add an account using a private key from Ganache<br>
 <img width="1918" height="827" alt="image" src="https://github.com/user-attachments/assets/533775fe-f34f-4c1b-840a-f7948ab6cf8c" /><br>
 <img width="1917" height="953" alt="image" src="https://github.com/user-attachments/assets/4d56b74b-2490-4f21-b96b-1d9b17d915ac" />
 
+4. connect the metamask wallet with our project it will automatically detect 
+⚠ use same browser for both GUI app and metamask
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/c0f7c5bc-78d1-41ae-bccc-49e83c3c57da" />
 
 
 
@@ -197,7 +202,14 @@ npm start
 
 Open browser:
 
-http://localhost:3000
+http://localhost:3000<br>
+<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/8e33f76c-453c-4744-9657-38da12565492" /><br>
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/0ca437be-8ebd-42bd-ba72-46ee124c4a08" /><br>
+<img width="1916" height="896" alt="image" src="https://github.com/user-attachments/assets/f24db427-cd4d-4fdb-894a-f2495fd9770d" />
+
+
+
+
 
 
 ---
