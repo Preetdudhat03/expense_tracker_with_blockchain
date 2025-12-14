@@ -77,56 +77,125 @@ Ganache
 
 MetaMask browser extension
 
+---
 
-Install Truffle globally:
+🚀 Step-by-Step Setup Guide
+
+✅ <h3>Step 1: Install Required Tools</h3>
+
+Make sure you have the following installed:
+
+Node.js (v16 or later)
+
+npm
+
+Truffle
+
+Ganache
+
+MetaMask (Browser Extension)
+
 
 npm install -g truffle
 
 
 ---
 
-🚀 How to Run the Project
+✅ Step 2: Start Ganache (Local Blockchain)
 
-1️⃣ Start Ganache
+Option A: Ganache GUI
 
-Open Ganache
-
-Run it on port 7545
+1. Open Ganache
 
 
-
----
-
-2️⃣ Compile & Deploy Smart Contract
-
-truffle compile
-truffle migrate --reset
+2. Click Quickstart Ethereum
 
 
----
-
-3️⃣ Configure MetaMask
-
-Add a custom network:
+3. Note the following:
 
 RPC URL: http://127.0.0.1:7545
 
-Chain ID: 1337
+Network ID: 5777
 
 
-Import an account using a private key from Ganache
+
+
+Option B: Ganache CLI
+
+ganache --networkId 5777 --port 7545<br>
+<img width="825" height="927" alt="image" src="https://github.com/user-attachments/assets/d323192b-2979-469e-ac60-783769027851" />
 
 
 
 ---
 
-4️⃣ Run React Frontend
+✅ Step 3: Configure MetaMask
 
-cd client
+1. Open MetaMask<br>
+<img width="1918" height="975" alt="image" src="https://github.com/user-attachments/assets/927f7660-a24c-498c-8fe3-59eefba83c88" />
+
+
+
+2. Add a new network:<br>
+
+Network Name: Ganache<br>
+RPC URL: http://127.0.0.1:7545<br>
+Chain ID: 5777<br>
+Currency Symbol: ETH<br>
+
+3. Add an account using a private key from Ganache<br>
+<img width="1918" height="827" alt="image" src="https://github.com/user-attachments/assets/533775fe-f34f-4c1b-840a-f7948ab6cf8c" /><br>
+<img width="1917" height="953" alt="image" src="https://github.com/user-attachments/assets/4d56b74b-2490-4f21-b96b-1d9b17d915ac" />
+
+
+
+
+
+---
+
+✅ Step 4: Compile & Deploy Smart Contract
+
+cd backend
+truffle compile<br>
+<img width="993" height="307" alt="image" src="https://github.com/user-attachments/assets/bba656e1-7f24-4c08-915e-5f07ea0648c4" />
+
+truffle migrate --reset<br>
+<img width="846" height="962" alt="image" src="https://github.com/user-attachments/assets/661e3d45-3c3b-4b67-a678-e7efae93998e" />
+
+
+✔ Contract will be deployed on the local blockchain
+
+
+---
+
+✅ Step 5: Copy ABI to Frontend
+
+Copy this file:
+
+backend/build/contracts/ExpenseTracker.json
+
+Paste it into:
+
+frontend/src/contracts/ExpenseTracker.json
+
+⚠ This step is mandatory to avoid ABI errors
+
+
+---
+
+✅ Step 6: Install Frontend Dependencies
+
+cd frontend
 npm install
+
+
+---
+
+✅ Step 7: Start React Application
+
 npm start
 
-The app will open at:
+Open browser:
 
 http://localhost:3000
 
