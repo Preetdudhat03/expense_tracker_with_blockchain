@@ -44,23 +44,23 @@ Web3 Library	Web3.js
 
 📁 Project Structure
 
-expense-tracker/
-├── contracts/
-│   ├── ExpenseTracker.sol
-│   └── Migrations.sol
-├── migrations/
-│   └── 2_deploy_contracts.js
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── AddExpense.js
-│   │   │   └── ExpenseList.js
-│   │   ├── App.js
-│   │   ├── expenseTracker.js
-│   │   └── styles/
-│   └── package.json
-├── truffle-config.js
-└── README.md
+expense-tracker/<br>
+├── contracts/<br>
+│   ├── ExpenseTracker.sol<br>
+│   └── Migrations.sol<br>
+├── migrations/<br>
+│   └── 2_deploy_contracts.js<br>
+├── client/<br>
+│   ├── src/<br>
+│   │   ├── components/<br>
+│   │   │   ├── AddExpense.js<br>
+│   │   │   └── ExpenseList.js<br>
+│   │   ├── App.js<br>
+│   │   ├── expenseTracker.js<br>
+│   │   └── styles/<br>
+│   └── package.json<br>
+├── truffle-config.js<br>
+└── README.md<br>
 
 
 ---
