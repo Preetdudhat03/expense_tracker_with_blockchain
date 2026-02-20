@@ -67,15 +67,7 @@ expense-tracker/<br>
 
 🛠 Prerequisites
 
-Make sure you have the following installed:
 
-Node.js (v16+ recommended)
-
-Truffle
-
-Ganache
-
-MetaMask browser extension
 
 ---
 
